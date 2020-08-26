@@ -1,7 +1,7 @@
 {
   "name": "fivemdev-cli",
   "version": "1.0.0",
-  "description": "fivemdev-cli",
+  "description": "cli for create resource for server fivem in lua",
   "main": "main.js",
   "bin": {
     "fivemdev": "./bin/fivemdev_cli.js"
@@ -18,8 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/slayerMonkeys/fivemdev-cli.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "SlayerMonkey",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/slayerMonkeys/fivemdev-cli/issues"
   },

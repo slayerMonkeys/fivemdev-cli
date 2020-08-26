@@ -4,7 +4,7 @@ const fs = require('fs')
 const cli = () => {
     require('yargs')
         .scriptName('fivemdev')
-        .command('resource:create [name] [-u | -r]', 'Create a resource with the of your choice in current directory', (yargs) => {
+        .command('resource:create [name] [-u | -r]', 'Create a resource with the name of your choice in current directory', (yargs) => {
             yargs
                 .positional('name', {
                     describe: 'name of resource',
