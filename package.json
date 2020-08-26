@@ -1,0 +1,27 @@
+{
+  "name": "fivemdev-cli",
+  "version": "1.0.0",
+  "description": "fivemdev-cli",
+  "main": "main.js",
+  "bin": {
+    "fivemdev": "./bin/fivemdev_cli.js"
+  },
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slayerMonkeys/fivemdev-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slayerMonkeys/fivemdev-cli/issues"
+  },
+  "homepage": "https://github.com/slayerMonkeys/fivemdev-cli#readme"
+}
